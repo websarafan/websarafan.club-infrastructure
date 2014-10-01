@@ -1,0 +1,40 @@
+{
+    "run_list": [
+	"recipe[user::data_bag]",
+	"recipe[ruby_build]",
+	"recipe[rbenv::user]",
+	"recipe[lazy-brigade]"
+    ],
+    "automatic": {
+	"fqdn": "websarafan.club"
+    },
+    "environment": "production",
+    "users": ["app"],
+    "app-domain": "websarafan.club",
+    "app-environment": "production",
+    "locales": {
+        "default": "ru_RU.utf8"
+    },
+    "rbenv": {
+        "user_installs": [{
+            "user": "app",
+            "rubies": ["2.1.3"],
+            "global": "2.1.3",
+            "gems": {
+                "2.1.3": [
+                    { "name": "bundler" }
+                ]
+            }
+        }]
+    },
+    "iptables-ng": {
+        "ssh": {
+            "rule": "-A FWR -p tcp -m tcp --dport 22 -j ACCEPT",
+            "ip_version": 4
+        },
+        "http": {
+            "rule": "-A FWR -p tcp -m tcp --dport 80 -j ACCEPT",
+            "ip_version": 4
+        }
+    }
+}

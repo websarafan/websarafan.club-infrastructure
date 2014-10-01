@@ -1,0 +1,8 @@
+{
+    "id": "app",
+    "comment": "application user",
+    "home": "/home/app",    
+    "ssh_keys": [
+        "ssh-dss AAAAB3NzaC1kc3MAAACBANt8bUzcgmFhq+rNRYG/gBD2Yr/nIHogFxT4eN4NESaQM2nluiBBT04aBtV9C2APz/cs5ZvUeIjiFePEey/OWv7YdHPiYFCedn86tlxWkg0ZJ/2nVI7diQpLz40cwlmKx/OMX10Pp43Dh3zxMaQCjS7ZO+x+K77dmPjKY2FBmI2bAAAAFQDlUnguSyAkQebRb+O5W5lAQ/o/AwAAAIEAhrrpRAXVaPifPIOZMV2qIJ2TMULYd119gU02x4NJOAuHsThGOl89wxYSjWVzgnFKRSqcguKACjaR8jFMb44WZ+CSVZbzPhkBVWmLvZE99yi0/R7XRUUD6hePdDtdjqQIASlDXMn9Cafp1jZQS4yzXs8SgW4Q+I1ym9Dc2rGiRWIAAACAQZ6JXsMbEpodiJOigmmKIbcWCe4eeHYO0MoFGClyRPcuP6e3ARmyN28MyyAvnIvMgUFhqenG2UqLBL1tlEmgbeoy9T3CMMmDWl1G4FJb58yPjN+3tekzPlniZBoIcu/op3m1lKa7goVJQW4aHXNkJcRJCWnQt4RaH326e/eb/1M= ehlyzov@dream.local"
+    ]
+}
