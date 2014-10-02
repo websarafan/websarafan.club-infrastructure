@@ -3,7 +3,8 @@
 	"recipe[user::data_bag]",
 	"recipe[ruby_build]",
 	"recipe[rbenv::user]",
-	"recipe[lazy-brigade]"
+	"recipe[lazy-brigade]",
+	"recipe[nodejs]"
     ],
     "automatic": {
 	"fqdn": "websarafan.club"
